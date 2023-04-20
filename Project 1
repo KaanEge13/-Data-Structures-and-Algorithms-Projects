@@ -1,0 +1,39 @@
+Proje 1
+[22,27,16,2,18,6] -> Insertion Sort
+
+Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+
+Big-O gösterimini yazınız.
+
+Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+
+Average case: Aradığımız sayının ortada olması
+Worst case: Aradığımız sayının sonda olması
+Best case: Aradığımız sayının dizinin en başında olması.
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+
+
+Selection sort yöntemi ile dizideki en küçük eleman bulunup dizinin ilk elemanı ile yer değiştirilmesi metodu izlenir.
+Sırasıyla:
+[22,27,16,2,18,6]
+>>>
+[2,27,16,22,18,6]                (En küçük sayı 2 seçildi ve dizinin ilk elemanı ile yer değiştirildi)
+[2,6,16,22,18,27]                (Diğer sayılardan küçük sayı 6 seçildi ve dizinin ikinci elemanı ile yer değiştirildi)
+[2,6,16,22,18,27]                (16 olması gereken sırada olduğu için değişiklik yapılmadı)
+[2,6,16,18,22,27]                (18 seçildi ve 22 sayısı ile yer değiştirildi)
+
+Dizi başarılı bir şekilde sıralandığı için algoritma sonlandırılır.
+
+Big-O gösterimi O(n^2) dir.
+Time Complexity:İstenilen 18 sayısı dizinin ortasında oldugu için ""Average case" dir.
+
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+
+[2,3,5,8,7,9,4,15,6]
+[2,3,5,8,7,9,4,15,6]
+[2,3,4,8,7,9,5,15,6]
+[2,3,4,5,7,9,8,15,6]
+[2,3,4,5,6,9,8,15,7]
+
+İlk dört adımı yukarida belirtilmiştir.
+
